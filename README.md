@@ -24,11 +24,13 @@ Make sure you have the following installed:
 
 - Node.js (v12 or later)
 - npm (Node Package Manager)
+- Redis (if using Redis for state management)
 
-### Installation
+### Installing Redis
 
-1. Clone the repository:
+1. Download and install Redis from the [official Redis website](https://redis.io/download).
+
+2. After installation, start the Redis server. Open a new Command Prompt window and run:
 
    ```bash
-   git clone https://github.com/your-username/redux-user-profile-management.git
-   cd redux-user-profile-management
+   redis-server
